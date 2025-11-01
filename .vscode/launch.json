@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProfileApplication",
+            "request": "launch",
+            "mainClass": "com.hms.profile.ProfileApplication"
+        },
+        {
+            "type": "java",
+            "name": "GatewayApplication",
+            "request": "launch",
+            "mainClass": "com.hms.gateway.GatewayApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsermsApplication<userms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.hms.user.userms.UsermsApplication",
+            "projectName": "userms",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
